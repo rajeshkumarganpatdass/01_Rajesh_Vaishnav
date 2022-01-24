@@ -26,6 +26,6 @@ public class ListDemo {
 			System.out.println("Iterator: " + it.next());
 
 		for (Object o : values)
-			System.out.println("For Loop: " + o);
+			System.out.println("Inside For Loop: " + o);
 	}
 }
