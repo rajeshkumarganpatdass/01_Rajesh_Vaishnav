@@ -26,6 +26,7 @@ public class Stream9Sorting {
 		List<Employee> lstSorted =  lstEmpl.stream().
 				sorted(Comparator.comparing(Employee::getEmp_Salary))
 				.collect(Collectors.toList());
+		
 		System.out.println("After Sorting: ");
 		lstSorted.stream().forEach(System.out::println);
 		

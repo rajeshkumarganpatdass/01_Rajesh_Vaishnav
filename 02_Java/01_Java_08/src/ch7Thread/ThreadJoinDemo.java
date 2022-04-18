@@ -18,6 +18,7 @@ public class ThreadJoinDemo {
 
 		// in order to provide gap, delay
 		Thread.sleep(500);
+		
 		t2.start();
 		
 		t1.join();

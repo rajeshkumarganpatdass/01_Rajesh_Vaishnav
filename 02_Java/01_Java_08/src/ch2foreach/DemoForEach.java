@@ -23,6 +23,7 @@ public class DemoForEach {
 		
 		//forEach in Java 8 - Internal Loop
 		lstNumbers.forEach(i -> System.out.println(i));
+		
 			
 	}
 }
