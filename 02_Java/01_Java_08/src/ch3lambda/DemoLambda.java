@@ -30,7 +30,7 @@ public class DemoLambda {
 				
 		//(parameter) -> { Method definition };
 		//the above line indicates
-		//a method of interface is defined with paramters in brackets
+		//a method of interface is defined with parameters in brackets
 		
 	}
 
