@@ -29,7 +29,7 @@ public class Stream1Basics {
 		lstNumbers.stream().forEach(i -> System.out.println(i));
 		
 		//forEach using stream with method reference
-		lstNumbers.stream().forEach(System.out::println);
+		lstNumbers.stream().forEach(System.out::println);		
 	}
 
 }
